@@ -1,0 +1,11 @@
+@use "../setting/app" as *;
+
+.l-footer{
+    margin-top: 2rem;
+    > div {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
